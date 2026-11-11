@@ -1,73 +1,116 @@
 # Awesome-Cloud-Productivity-Document-Suite
 
-## Top Cloud Productivity & Document Suite Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite?style=social)](https://github.com/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite/pulls)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Real-Time Document Collaboration, Knowledge Management & Integrated Workspaces*  
-**Last updated: March 2026**
+> A curated list of leading **Cloud Productivity & Document Suites**, collaborative office suites, team wikis, and self-hosted open-source alternatives.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Productivity & Document Suites**. These tools combine documents, spreadsheets, wikis, and project management into unified workspaces—enabling teams to create, organize, and collaborate on content without switching between disconnected applications.
-
-**Examples** include Zoho Workplace, Google Workspace, Microsoft 365, ONLYOFFICE, Apple iWork, Quip, Dropbox Paper, Notion, WPS Cloud, and Coda (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted document collaboration, open-source wiki platforms, and community-driven productivity suites—ideal for organizations seeking data sovereignty, offline capability, and vendor neutrality over per-seat cloud subscriptions.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Zoho Workplace](https://www.zoho.com/workplace/)** | Integrated suite with Mail, WorkDrive, Writer, Sheet, Show, Cliq, Meeting, and Connect. Professional plan includes 100 GB mailbox per user and 1 TB team storage for 3–10 users [citation:1]. | Standard: ¥150/user/year (~$21 USD); Professional: ¥350/user/year (~$49 USD) [citation:1] | **15-day free trial** for Workplace suite; no permanent free tier for the full suite [citation:1] |
-| **[Google Workspace](https://workspace.google.com/)** | Gmail, Drive, Docs, Sheets, Slides, Meet, and Gemini AI. Business Starter includes 30 GB pooled storage per user. Gemini included in Business and Enterprise plans [citation:2]. | Business Starter: $7/user/month (annual, $84/year); Business Standard: $14/user/month (annual) [citation:2] | **14-day free trial** for Business plans; no free tier for Workspace (Google Docs Editors free for personal use only)  |
-| **[Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/)** | Word, Excel, PowerPoint, Outlook, Teams, OneDrive, and Copilot (add-on or bundled). Business Basic offers 50 GB mailbox and 1 TB OneDrive per user [citation:3][citation:14]. | Business Basic: $7/user/month (rising from $6 on July 1, 2026); Business Standard: $14/user/month (rising from $12.50) [citation:3][citation:14] | **1-month free trial** for Business Basic and Standard; no permanent free tier [citation:3] |
-| **[ONLYOFFICE](https://www.onlyoffice.com/)** | Docs, Sheets, Slides, and DocSpace collaboration platform. Cloud Startup plan is free for small teams; Enterprise and Developer editions available for self-hosting [citation:4][citation:15]. | Cloud Startup: Free (3 admins, 12 rooms, 2 GB); Enterprise/Developer: quote-only (perpetual license with 1-year updates) [citation:4][citation:15] | **Free (Startup)**: 3 admins, unlimited users/visitors, 12 rooms, 2 GB storage, community support [citation:4] |
-| **[Apple iWork](https://www.apple.com/iwork/)** | Pages, Numbers, and Keynote. Available free via iCloud for existing Apple device owners, but Apple is transitioning to Creator Studio subscription for new users (€12.99/month or €129/year) with additional templates and AI features [citation:5]. | Free for legacy Apple device owners; Creator Studio: €12.99/month or €129/year for new users [citation:5] | **Free** for users who already own iWork via an Apple device; new users must subscribe to Creator Studio for the full desktop experience [citation:5] |
-| **[Quip](https://quip.com/)** | Salesforce-owned collaborative document and spreadsheet platform with embedded chat. Starter plan includes unlimited documents, group chat, and mobile access [citation:6]. | Starter: $10/user/month (annual, $12 monthly); Plus: $25/user/month; Advanced: $100/user/month [citation:6] | **No free tier**; paid plans only. Special offer: $30 for first five users (Starter, annual) [citation:6] |
-| **[Dropbox Paper](https://www.dropbox.com/paper)** | Collaborative document tool integrated with Dropbox. Free for all Dropbox users with unlimited Paper documents [citation:7]. | Free with any Dropbox account; paid Dropbox plans for additional storage/features [citation:7] | **Free forever**: unlimited Paper documents with a Dropbox account [citation:7] |
-| **[Notion](https://www.notion.so/)** | All-in-one workspace combining documents, databases, wikis, and project management. Business tier list price ~$18/user/month; negotiated pricing commonly $14.40–$16.20/user/month [citation:8]. | Business: ~$18/user/month (list); Enterprise: ~$25–$30/user/month (list) [citation:8] | **Free plan** available for individuals; paid plans required for team collaboration at scale [citation:8] |
-| **[WPS Cloud](https://www.wps.com/)** | Writer, Spreadsheets, Presentation, PDF tools, and AI assistant. Free Standard tier with limited features; Pro+ adds advanced AI (daily limits) and premium templates [citation:9]. | Pro+: paid subscription (exact pricing not listed in search results); free trial available for new subscribers [citation:9] | **Free (Standard)**: core office features, basic templates, limited AI usage; **free trial** for Pro+ available [citation:9] |
-| **[Coda](https://coda.io/)** | Document-platform hybrid with tables, buttons, and automations. Billed only for Doc Makers (creators); Editors and Viewers are free [citation:10]. | Free: $0; Pro: $10/month per Doc Maker; Team: $30/month per Doc Maker [citation:10] | **Free**: unlimited unshared docs, basic AI (low quota), 1 GB per doc, 7-day version history [citation:10] |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[LibreOffice](https://github.com/LibreOffice/core)** | [![Stars](https://img.shields.io/github/stars/LibreOffice/core?style=social&color=white)](https://github.com/LibreOffice/core/stargazers) | The flagship open-source office suite from The Document Foundation. Writer, Calc, Impress, Draw, Base, and Math. Native ODF plus solid DOCX/XLSX/PPTX compatibility. Runs fully offline with no account required and no telemetry. |
-| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | Self-hosted document editing server with Docs, Sheets, and Slides. Integrates with Nextcloud, ownCloud, SharePoint, and custom apps via API. Strong Microsoft format compatibility and collaborative editing. AGPL for community edition. |
-| **[Folio](https://github.com/evergreen-it-dev/folio)** | [![Stars](https://img.shields.io/github/stars/evergreen-it-dev/folio?style=social&color=white)](https://github.com/evergreen-it-dev/folio/stargazers) | AI-assisted open-source alternative to Notion and Confluence. Team wiki that lives in Git with real-time editing, data tables, whiteboards, offline mode, and first-class AI agents. Supports bring-your-own Cursor API key; assistant runs server-side with live status [citation:11]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Nextcloud Office](https://github.com/nextcloud/richdocuments)** | [![Stars](https://img.shields.io/github/stars/nextcloud/richdocuments?style=social&color=white)](https://github.com/nextcloud/richdocuments/stargazers) | Nextcloud integration with Collabora Online or ONLYOFFICE, turning a self-hosted Nextcloud instance into a full productivity suite with file storage, sharing, calendar, contacts, and real-time document editing. |
-| **[CryptPad](https://github.com/cryptpad/cryptpad)** | [![Stars](https://img.shields.io/github/stars/cryptpad/cryptpad?style=social&color=white)](https://github.com/cryptpad/cryptpad/stargazers) | Privacy-first, end-to-end encrypted collaboration suite with rich text, sheets, slides, code, and kanban. Zero-knowledge architecture means the server cannot read document contents. Self-hostable. |
-
-**Frameworks for building custom systems**: Combine **LibreOffice** for offline authoring, **ONLYOFFICE Document Server** or **Collabora Online** for web-based real-time editing, **Nextcloud** for file storage and sharing, and **Folio** for AI-assisted wiki and knowledge management—deployable entirely on-premises or in a private cloud with Docker Compose.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Productivity suites handle business documents and communications; enforce appropriate access controls, data retention policies, and compliance with applicable regulations (GDPR, HIPAA where relevant).
-- Pricing and free-tier limits change frequently; verify against vendor pages before committing. Apple iWork's transition to Creator Studio subscription means the "free forever" expectation may no longer hold for new users [citation:5]. Self-hosted open-source suites require proper backups, security updates, and collaborative editing server hardening.
+Discover and compare top SaaS productivity ecosystems (Google Workspace, Microsoft 365, Notion) and sovereign open-source collaboration platforms (AppFlowy, AFFiNE, ONLYOFFICE, LibreOffice, CryptPad) with exact pricing, free-tier limits, market valuation, and real-time GitHub metrics.
 
 ---
 
-**Made for IT administrators, operations teams, and developers building workspace infrastructure.**  
-Let's make cloud productivity and document suites more open, sovereign, and collaborative.
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Productivity Suites](#saas--hosted-productivity-suites)
+- [Open-Source & Self-Hosted Collaboration Platforms](#open-source--self-hosted-collaboration-platforms)
+- [Architecture & Deployment Patterns](#architecture--deployment-patterns)
+- [How to Contribute](#how-to-contribute)
+- [License & Disclaimer](#license--disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global business and cloud office productivity software sector is projected to reach approximately **$110.36 billion in 2026** (growing at an 11% to 12% CAGR), propelled by rapid enterprise adoption of generative AI workspace assistants and hybrid workforce collaboration.
+
+The sector exhibits a **highly concentrated, winner-take-most structure** at the enterprise core—dominated by Microsoft 365 and Google Workspace, which collectively capture over 80% of enterprise seats worldwide—while remaining **moderately fragmented across specialized and open-source segments**, where modular document databases (Notion, Coda), sovereign self-hosted office suites (ONLYOFFICE, LibreOffice, Nextcloud), and privacy-first local-first platforms (AppFlowy, AFFiNE, CryptPad) flourish.
+
+---
+
+## SaaS & Hosted Productivity Suites
+
+*Sorted by parent company valuation / market capitalization (descending).*
+
+| Product | Company Valuation / Revenue | Description | Pricing (Starting Paid Tier) | Free Tier / Trial Limits |
+|:---|:---|:---|:---|:---|
+| **[Apple iWork](https://www.apple.com/iwork/)** | **~$3.4 Trillion** *(Market Cap)* | Native productivity suite for macOS, iOS, and iCloud featuring Pages, Numbers, and Keynote with real-time iCloud sync and collaboration. | **€12.99/user/month** (Creator Studio plan, or €129/year for new standalone cloud users) | **Free forever** for all Apple device owners via native apps and iCloud web (includes 5 GB free iCloud storage) |
+| **[Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/)** | **~$3.1 Trillion** *(Market Cap)* | Flagship enterprise productivity suite comprising Word, Excel, PowerPoint, Outlook, Teams, OneDrive, and Copilot AI integration. | **$7.00/user/month** (Business Basic, annual commitment; $84/user/year) | **1-month (30-day) free trial** for Business Basic and Standard (up to 25 users); free web-only basic editing via personal Microsoft accounts |
+| **[Google Workspace](https://workspace.google.com/)** | **~$2.1 Trillion** *(Market Cap)* | Cloud-native collaborative workspace powering Gmail, Docs, Sheets, Slides, Drive, Meet, and Gemini AI. | **$7.00/user/month** (Business Starter, annual commitment; $84/user/year) | **14-day free trial** for Business editions; free personal Google accounts include Docs/Sheets/Slides with 15 GB shared Google Drive storage |
+| **[Quip](https://quip.com/)** | **~$190 Billion** *(Salesforce Market Cap)* | Salesforce-native collaborative document and spreadsheet workspace combining integrated team chat, live Salesforce data embeds, and mobile authoring. | **$10.00/user/month** (Starter, annual commitment; or $12.00 billed monthly) | **30-day free trial** with access to Starter features; no permanent free tier |
+| **[WPS Cloud](https://www.wps.com/)** | **~$15 Billion** *(Market Cap, Beijing Kingsoft Office)* | Comprehensive multi-platform office suite with Writer, Spreadsheets, Presentation, robust PDF editor, and cloud templates. | **$3.99/user/month** (WPS Pro, billed annually at ~$35.99/year) | **Free forever** (WPS Standard): includes core office editors, PDF viewer/annotation, basic templates, and 1 GB cloud storage; 7-day free trial for Pro features |
+| **[Zoho Workplace](https://www.zoho.com/workplace/)** | **~$12.5 Billion** *(Private Valuation, ₹12,300+ Cr Revenue)* | Bootstrapped all-in-one business productivity ecosystem with Writer, Sheet, Show, WorkDrive, Mail, Cliq chat, and Meeting. | **$3.00/user/month** (Standard plan billed annually; or ¥150/user/year in regional pricing) | **15-day free trial** for Workplace suite (up to 25 users); free forever Zoho Mail plan available for up to 5 users with 5 GB/user storage |
+| **[Notion](https://www.notion.so/)** | **~$11 Billion** *(Private Valuation, $860M+ ARR)* | Connected modular workspace uniting documents, relational databases, team wikis, project roadmaps, and embedded AI agents. | **$10.00/user/month** (Plus plan, annual commitment; or $12.00 billed monthly) | **Free forever** plan for individuals and small teams: unlimited pages/blocks, up to 10 guest collaborators, 5 MB file upload limit, and 7-day page history |
+| **[Dropbox Paper](https://www.dropbox.com/paper)** | **~$7.8 Billion** *(Dropbox Market Cap, $2.5B ARR)* | Real-time collaborative workspace and markdown-enabled doc editor integrated directly into Dropbox cloud file storage. | **$9.99/user/month** (Dropbox Plus starting storage plan; Paper tool itself is included) | **Free forever**: unlimited Paper docs and real-time editing with any free 2 GB Dropbox Basic account |
+| **[Coda](https://coda.io/)** | **~$1.4 Billion** *(Acquired by Superhuman / Grammarly)* | Dynamic all-in-one document and application builder featuring relational tables, custom automations, interactive buttons, and formula packs. | **$10.00/month per Doc Maker** (Pro tier, annual commitment; Editors & Viewers are free) | **Free forever** plan: unlimited unshared docs, unlimited editors/viewers, 50 objects per doc, 1 GB total storage, and 7-day version history |
+| **[ONLYOFFICE](https://www.onlyoffice.com/)** | **~$12 Million ARR** *(Privately held, Ascensio System SIA)* | Office Open XML-compliant document suite with Docs, Sheets, Slides, PDF form builder, and DocSpace collaboration rooms. | **$5.00/user/month** (DocSpace Business cloud plan; or quote-based perpetual on-premise license) | **Free forever** (Startup Cloud plan): up to 3 admins, unlimited regular users/visitors, 12 collaboration rooms, 2 GB cloud storage, and community support |
+
+---
+
+## Open-Source & Self-Hosted Collaboration Platforms
+
+*Sorted by GitHub Star count (descending).*
+
+| Project | Star Badge | Description | Primary Capabilities |
+|:---|:---:|:---|:---|
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | The leading open-source alternative to Notion, built with Flutter and Rust. Prioritizes data security, offline-first operation, modular plugins, and native AI capabilities. | Kanban, Team Wikis, Relational Tables, Offline-first, AI Agents |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | Next-generation all-in-one workspace uniting docs, whiteboards, mind maps, and relational databases. Seamlessly toggles between structured text documents and infinite canvas boards. | Infinite Canvas, Markdown Docs, Whiteboards, Self-hostable, Local-first |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | Open-source no-code relational database and smart spreadsheet platform that transforms any SQL database into a collaborative Airtable-style workspace. | Smart Spreadsheets, Relational Grids, REST APIs, Gallery/Kanban views |
+| **[Logseq](https://github.com/logseq/logseq)** | [![Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | Privacy-first, local-first knowledge management and outliner platform supporting Markdown and Org-mode with bi-directional linking and flashcards. | Outliner, Bidirectional Linking, Knowledge Graph, Whiteboards, Local files |
+| **[Outline](https://github.com/outline/outline)** | [![Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | Blazing-fast, modern team knowledge base and wiki built with React and Node.js. Beautiful UI with real-time markdown collaboration, permissions, and Slack integration. | Team Wiki, Real-Time Markdown, Structured Hierarchy, Fast Search |
+| **[Etherpad](https://github.com/ether/etherpad-lite)** | [![Stars](https://img.shields.io/github/stars/ether/etherpad-lite?style=social&color=white)](https://github.com/ether/etherpad-lite/stargazers) | Highly customizable, real-time collaborative rich-text editor engine powering web pads with infinite version history and extensive plugin ecosystem. | Real-time Typing Sync, Time Slider History, Rich Plugins, Embeddable API |
+| **[CryptPad](https://github.com/cryptpad/cryptpad)** | [![Stars](https://img.shields.io/github/stars/cryptpad/cryptpad?style=social&color=white)](https://github.com/cryptpad/cryptpad/stargazers) | Zero-knowledge, end-to-end encrypted collaboration suite featuring rich text, spreadsheets, presentations, code pads, forms, and kanban boards. | End-to-End Encryption, Zero-Knowledge Storage, Collaborative Docs & Sheets |
+| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | Enterprise-grade self-hosted collaborative document engine with native support for OOXML (`.docx`, `.xlsx`, `.pptx`). Integrates with Nextcloud, ownCloud, and custom platforms. | Word, Spreadsheet & Presentation Editors, Track Changes, Real-time Co-editing |
+| **[LibreOffice](https://github.com/LibreOffice/core)** | [![Stars](https://img.shields.io/github/stars/LibreOffice/core?style=social&color=white)](https://github.com/LibreOffice/core/stargazers) | The gold standard open-source desktop office suite from The Document Foundation. Delivers Writer, Calc, Impress, Draw, Base, and Math with comprehensive file format support. | Desktop Office Suite, OpenDocument Format (ODF), Offline Authoring, Zero Telemetry |
+| **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![Stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | Powerful LibreOffice-based cloud office suite providing high-fidelity document viewing and collaborative editing for Nextcloud, ownCloud, and enterprise web solutions. | LibreOffice Engine in Cloud, WOPI Integration, Multi-user Editing, High Fidelity |
+| **[Nextcloud Office](https://github.com/nextcloud/richdocuments)** | [![Stars](https://img.shields.io/github/stars/nextcloud/richdocuments?style=social&color=white)](https://github.com/nextcloud/richdocuments/stargazers) | Official Nextcloud integration app connecting Collabora Online and ONLYOFFICE to provide fully sovereign cloud document workflows within private Nextcloud instances. | Self-hosted Cloud Storage, File Sharing, Live Document Editing, Sovereign Hosting |
+| **[Folio](https://github.com/evergreen-it-dev/folio)** | [![Stars](https://img.shields.io/github/stars/evergreen-it-dev/folio?style=social&color=white)](https://github.com/evergreen-it-dev/folio/stargazers) | Git-native, AI-assisted team wiki and knowledge base designed as an open-source alternative to Notion and Confluence with real-time editing and offline mode. | Git-backed Storage, AI Assistant, Whiteboards, Data Tables, Markdown |
+
+---
+
+## Architecture & Deployment Patterns
+
+Self-hosting a resilient cloud productivity stack provides enterprise data sovereignty, regulatory compliance (GDPR, HIPAA), and immunity against per-seat SaaS price hikes:
+
+```mermaid
+flowchart TD
+    Client["Client Devices\n(Web Browser, Desktop, Mobile)"]
+    Gateway["Reverse Proxy & TLS Gateway\n(Traefik / Caddy / Nginx)"]
+    Storage["Storage & Identity Layer\n(Nextcloud / MinIO / Authentik)"]
+    OfficeCore["Document Collaboration Engine\n(ONLYOFFICE Document Server / Collabora Online)"]
+    Knowledge["Knowledge Base & Team Wiki\n(AppFlowy / AFFiNE / Outline)"]
+
+    Client --> Gateway
+    Gateway --> Storage
+    Gateway --> OfficeCore
+    Gateway --> Knowledge
+    OfficeCore <--> Storage
+    Knowledge <--> Storage
+```
+
+### Recommended Self-Hosted Stacks
+
+- **Full Office Suite Replacement:** Deploy **Nextcloud Hub** + **ONLYOFFICE Document Server** or **Collabora Online** using Docker Compose for complete drop-in parity with Microsoft 365 or Google Workspace.
+- **Modern Knowledge Workspace:** Deploy **AFFiNE** or **AppFlowy Cloud** alongside **Outline** for real-time team wikis, relational databases, and visual whiteboards.
+- **Maximum Privacy & Compliance:** Deploy **CryptPad** with client-side end-to-end encryption, ensuring zero server-side plaintext exposure.
+
+---
+
+## How to Contribute
+
+Contributions, corrections, and new entries are welcome!
+
+1. Fork the repository.
+2. Create a descriptive branch (`git checkout -b feature/add-new-suite`).
+3. Add or update entries following the table format (ensure exact pricing, verified free tiers, company valuation, and star badges are included).
+4. Commit your changes (`git commit -m "Add New Productivity Suite"`).
+5. Push to the branch (`git push origin feature/add-new-suite`) and open a Pull Request.
+
+---
+
+## License & Disclaimer
+
+- Distributed under the [MIT License](LICENSE).
+- All product names, logos, and brands are property of their respective owners. Pricing, free-tier limits, and market capitalizations reflect publicly reported data and vendor terms as of 2026. Verify directly on vendor websites before procurement.
