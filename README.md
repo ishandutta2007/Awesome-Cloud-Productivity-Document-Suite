@@ -10,7 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite?style=social" alt="GitHub_Stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Productivity-Document-Suite/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -70,9 +70,9 @@ The sector exhibits a **highly concentrated, winner-take-most structure** at the
 
 ## 🛡️ Open-Source & Self-Hosted Collaboration Platforms
 
-*Sorted by GitHub Star count (descending).* 🌟⭐
+*Sorted by GitHub Stars_Count (descending).* 🌟⭐
 
-| Project | Star Badge | Description | Primary Capabilities |
+| Project | Stars_Badge | Description | Primary Capabilities |
 |:---|:---:|:---|:---|
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | 🪶 The leading open-source alternative to Notion, built with Flutter and Rust. Prioritizes data security, offline-first operation, modular plugins, and native AI capabilities. | Kanban, Team Wikis, Relational Tables, Offline-first, AI Agents |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | 🎨 Next-generation all-in-one workspace uniting docs, whiteboards, mind maps, and relational databases. Seamlessly toggles between structured text documents and infinite canvas boards. | Infinite Canvas, Markdown Docs, Whiteboards, Self-hostable, Local-first |
@@ -123,7 +123,7 @@ Contributions, corrections, and new entries are warmly welcome! 🙌
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a descriptive branch (`git checkout -b feature/add-new-suite`).
-3. ✍️ Add or update entries following the table format (ensure exact pricing, verified free tiers, company valuation, and star badges are included).
+3. ✍️ Add or update entries following the table format (ensure exact pricing, verified free tiers, company valuation, and Stars_Badges are included).
 4. 💾 Commit your changes (`git commit -m "Add New Productivity Suite"`).
 5. 🚀 Push to the branch (`git push origin feature/add-new-suite`) and open a Pull Request.
 
